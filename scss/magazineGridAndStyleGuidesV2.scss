@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import "layouts";
+@import "components";
 
 .magazineContent em.small {
     font-size: 12px;
@@ -209,31 +210,6 @@
     padding-top: 8px !important
 }
 
-.magazineContent .btnShopThe {
-    font-family: "GillSansBold", Arial, sans serif;
-    font-size: 12px;
-    text-transform: uppercase;
-    margin: 0 0 0 -5px;
-    z-index: 1;
-    padding-top: 8px
-}
-
-.magazineContent .btnShopThe a {
-    background: url("../images/styleGuide/btnShopThe_off.png") no-repeat right 3px;
-    color: #000;
-    text-decoration: none;
-    padding: 2px 15px 2px 5px;
-    line-height: 12px;
-    font-size: 12px
-}
-
-.magazineContent .btnShopThe a:hover {
-    background: url("../images/styleGuide/btnShopThe_on.png") no-repeat right 3px #000;
-    color: #fff;
-    text-decoration: none;
-    padding: 2px 15px 2px 5px
-}
-
 .magazineContent .alignLeft {
     float: left
 }
@@ -263,85 +239,6 @@
     font-style: normal;
     letter-spacing: 0px;
     text-transform: none
-}
-
-.magazineContent .btnShopTheTwoLine {
-    font-family: "GillSansBold", Arial, sans serif;
-    font-size: 12px;
-    text-transform: uppercase;
-    margin: 0 0 0 -5px;
-    z-index: 1;
-    padding-top: 10px;
-    display: inline-block
-}
-
-.magazineContent .btnShopTheTwoLine a {
-    color: #000;
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 12px;
-    display: inline-block
-}
-
-.magazineContent .btnShopTheTwoLine a span {
-    display: block;
-    padding: 3px 3px 0
-}
-
-.magazineContent .btnShopTheTwoLine a span+span {
-    background: url("../images/styleGuide/btnShopThe_off.png") no-repeat right;
-    padding: 2px 13px 1px 3px
-}
-
-.magazineContent .btnShopTheTwoLine a:hover span {
-    background: #000;
-    color: #fff
-}
-
-.magazineContent .btnShopTheTwoLine a:hover span+span {
-    background: url("../images/styleGuide/btnShopThe_on.png") no-repeat right #000;
-    display: block;
-    clear: right
-}
-
-.magazineContent .btnShopTheTwoLineWhite {
-    font-family: "GillSansBold", Arial, sans serif;
-    font-size: 12px;
-    text-transform: uppercase;
-    margin: 0 0 0 -5px;
-    z-index: 1;
-    padding-top: 10px;
-    float: left;
-    display: inline-block
-}
-
-.magazineContent .btnShopTheTwoLineWhite a {
-    color: #FFF;
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 12px;
-    display: inline-block
-}
-
-.magazineContent .btnShopTheTwoLineWhite a span {
-    display: block;
-    padding: 3px 3px 0
-}
-
-.magazineContent .btnShopTheTwoLineWhite a span+span {
-    background: url("../images/styleGuide/btnShopThe_on.png") no-repeat right;
-    padding: 2px 13px 1px 3px
-}
-
-.magazineContent .btnShopTheTwoLineWhite a:hover span {
-    background: #FFF;
-    color: #000
-}
-
-.magazineContent .btnShopTheTwoLineWhite a:hover span+span {
-    background: url("../images/styleGuide/btnShopThe_off.png") no-repeat right #fff;
-    display: block;
-    clear: right
 }
 
 .magazineContent .contentsPageHolder h2 {
@@ -379,29 +276,6 @@
 .magazineContent .contentsPageHolder p {
     font-size: 10px;
     line-height: 12px
-}
-
-.magazineContent .btnShopTheWhite {
-    font-family: "GillSansBold", Arial, sans serif;
-    font-size: 13px;
-    text-transform: uppercase;
-    margin: 0 0 0 -5px;
-    z-index: 1;
-    padding-top: 15px
-}
-
-.magazineContent .btnShopTheWhite a {
-    background: url("../images/styleGuide/btnShopThe_on.png") no-repeat right transparent;
-    color: #fff;
-    text-decoration: none;
-    padding: 0px 15px 0px 5px
-}
-
-.magazineContent .btnShopTheWhite a:hover {
-    background: url("../images/styleGuide/btnShopThe_off.png") no-repeat right #fff;
-    color: #000;
-    text-decoration: none;
-    padding: 0px 15px 0px 5px
 }
 
 .magazineContent .questionBlock {
