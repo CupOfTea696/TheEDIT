@@ -1,0 +1,8 @@
+.container {
+    width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+    *zoom: 1
+}
+
+@import "layouts/grid";

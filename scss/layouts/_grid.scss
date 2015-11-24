@@ -1,0 +1,231 @@
+.column,
+.magazineContent .btnInformation a,
+.magazineContent .btnPlus a,
+.magazineContent .btnMinus a,
+body.lang-zh main .magazineContent .btnInformation a,
+body.lang-zh main .magazineContent .btnPlus a,
+body.lang-zh main .magazineContent .btnMinus a,
+[class*="span-"],
+[class*="pull-"],
+[class*="push-"] {
+    display: inline;
+    float: left;
+    margin-right: 0px
+}
+
+* html .column,
+* html .magazineContent .btnInformation a,
+.magazineContent .btnInformation * html a,
+* html .magazineContent .btnPlus a,
+.magazineContent .btnPlus * html a,
+* html .magazineContent .btnMinus a,
+.magazineContent .btnMinus * html a,
+* html body.lang-zh main .magazineContent .btnInformation a,
+body.lang-zh main .magazineContent .btnInformation * html a,
+* html body.lang-zh main .magazineContent .btnPlus a,
+body.lang-zh main .magazineContent .btnPlus * html a,
+* html body.lang-zh main .magazineContent .btnMinus a,
+body.lang-zh main .magazineContent .btnMinus * html a,
+* html [class*="span-"] {
+    overflow-x: hidden
+}
+
+.absolute,
+.magazineContent .slugLeft,
+.magazineContent .slugRight,
+body.lang-zh main .magazineContent .slugLeft,
+body.lang-zh main .magazineContent .slugRight,
+.magazineContent .creditsHolderRight,
+.magazineContent .creditsHolderLeft,
+.magazineContent .creditsHolderRightWhite,
+.magazineContent .creditsHolderLeftWhite,
+body.lang-zh main .magazineContent .creditsHolderRight,
+body.lang-zh main .magazineContent .creditsHolderLeft,
+body.lang-zh main .magazineContent .creditsHolderRightWhite,
+body.lang-zh main .magazineContent .creditsHolderLeftWhite,
+.magazineContent .creditsHolderRight .creditsWhole,
+body.lang-zh main .magazineContent .creditsHolderRight .creditsWhole,
+[class*="push-down-"],
+[class*="pull-up-"],
+[class*="push-right-"],
+[class*="pull-left-"] {
+    position: absolute
+}
+[class*="pull-left-"] {
+    text-align: right;
+}
+
+@for $i from 1 through 50 {
+    .span-#{$i} {
+        width: 19px * $i;
+    }
+    
+    .pull-#{$i} {
+        margin-left: -19px * $i;
+    }
+    
+    .push-#{$i} {
+        margin: 0 (-19px * $i) 1.5em (19px * $i);
+    }
+}
+
+.last {
+    margin-right: 0
+}
+
+@for $i from 1 through 49 {
+    .append-#{$i} {
+        padding-right: 19px * $i;
+    }
+    .prepend-#{$i} {
+        padding-left: 19px * $i;
+    }
+}
+
+.prepend-top {
+    margin-top: 1.5em
+}
+
+.append-bottom {
+    margin-bottom: 1.5em
+}
+
+input, textarea, select {
+    @for $i from 1 through 50 {
+        &.span-#{$i} {
+            width: 19px * $i;
+        }
+    }
+}
+
+@for $i from 1 through 50 {
+    .push-down-#{$i} {
+        top: 16px * $i;
+        
+        &-a {
+            top: 16px * $i + 4px;
+        }
+        
+        &-b {
+            top: 16px * $i + 8px;
+        }
+        
+        &-c {
+            top: 16px * $i + 12px;
+        }
+    }
+    
+    .pull-up-#{$i} {
+        bottom: 16px * $i;
+        
+        &-a {
+            bottom: 16px * $i + 4px;
+        }
+        
+        &-b {
+            bottom: 16px * $i + 8px;
+        }
+        
+        &-c {
+            bottom: 16px * $i + 12px;
+        }
+    }
+    
+    .push-right-#{$i} {
+        left: 19px * $i;
+        
+        &-a {
+            left: 19px * $i + 5px;
+        }
+        
+        &-b {
+            left: 19px * $i + 10px;
+        }
+        
+        &-c {
+            left: 19px * $i + 15px;
+        }
+    }
+    
+    .pull-left-#{$i} {
+        right: 19px * $i;
+        
+        &-a {
+            right: 19px * $i + 5px;
+        }
+        
+        &-b {
+            right: 19px * $i + 10px;
+        }
+        
+        &-c {
+            right: 19px * $i + 15px;
+        }
+    }
+}
+
+.span-50 {
+    margin: 0;
+}
+
+.magazineContent .slugLeft,
+.magazineContent .slugRight,
+body.lang-zh main .magazineContent .slugLeft,
+body.lang-zh main .magazineContent .slugRight {
+    @extend .push-down-1;
+}
+
+.magazineContent .creditsHolderRight,
+.magazineContent .creditsHolderLeft,
+.magazineContent .creditsHolderRightWhite,
+.magazineContent .creditsHolderLeftWhite,
+body.lang-zh main .magazineContent .creditsHolderRight,
+body.lang-zh main .magazineContent .creditsHolderLeft,
+body.lang-zh main .magazineContent .creditsHolderRightWhite,
+body.lang-zh main .magazineContent .creditsHolderLeftWhite {
+    @extend .pull-up-2;
+}
+
+.magazineContent .creditsHolderLeft,
+.magazineContent .creditsHolderLeftWhite,
+body.lang-zh main .magazineContent .creditsHolderLeft,
+body.lang-zh main .magazineContent .creditsHolderLeftWhite {
+    @extend .push-right-1;
+}
+
+.magazineContent .slugLeft,
+body.lang-zh main .magazineContent .slugLeft {
+    @extend .push-right-2;
+}
+
+.magazineContent .creditsHolderRight,
+.magazineContent .creditsHolderRightWhite,
+body.lang-zh main .magazineContent .creditsHolderRight,
+body.lang-zh main .magazineContent .creditsHolderRightWhite {
+    @extend .push-right-48;
+}
+
+.magazineContent .creditsHolderRight .creditsWhole,
+body.lang-zh main .magazineContent .creditsHolderRight .creditsWhole {
+    @extend .push-right-49;
+}
+
+.magazineContent .slugRight,
+body.lang-zh main .magazineContent .slugRight {
+    @extend .pull-left-2;
+}
+
+.magazineContent .btnInformation a,
+.magazineContent .btnPlus a,
+.magazineContent .btnMinus a,
+body.lang-zh main .magazineContent .btnInformation a,
+body.lang-zh main .magazineContent .btnPlus a,
+body.lang-zh main .magazineContent .btnMinus a {
+    @extend .span-1;
+}
+
+@for $i from 1 through 39 {
+    .row-#{$i} {
+        height: 16px * $i;
+    }
+}
