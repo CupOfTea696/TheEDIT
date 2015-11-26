@@ -1487,6 +1487,9 @@ body.lang-zh main .magazineContent .paddingBoxBlockBlackSmall {
 }
 
 .magazineContent .edLetterMain {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
     h2 {
         font-family: "ModernNAP-Display",Georgia,"Times New Roman",serif;
         font-size: 32px;
@@ -1829,8 +1832,41 @@ body.lang-zh main .magazineContent .paddingBoxBlockBlackSmall {
 
 .editSlug {
     background-image: url(/alfresco/nap/webAssets/magazine/_shared/contents/slug.png);
+    background-size: 157px 49px;
+    width: 157px;
     height: 49px;
-    width: 157px
+
+    @media  only screen and (-webkit-min-device-pixel-ratio: 1.3),
+    only screen and (-o-min-device-pixel-ratio: 13/10),
+    only screen and (min-resolution: 120dpi) {
+        background-image: url(/alfresco/nap/webAssets/magazine/_shared/contents/slug@2x.png);
+    }
+}
+
+.beautySlug {
+    width: 173px;
+    height: 63px;
+    background-image: url(/alfresco/nap/webAssets/magazine/_shared/contents/beautySlug.png);
+    background-size: 173px 63px;
+
+    @media  only screen and (-webkit-min-device-pixel-ratio: 1.3),
+    only screen and (-o-min-device-pixel-ratio: 13/10),
+    only screen and (min-resolution: 120dpi) {
+        background-image: url(/alfresco/nap/webAssets/magazine/_shared/contents/beautySlug@2x.png);
+    }
+}
+
+.travelSlug {
+    width: 146px;
+    height: 49px;
+    background-image: url(/alfresco/nap/webAssets/magazine/_shared/contents/travelSlug.png);
+    background-size: 146px 49px;
+
+    @media  only screen and (-webkit-min-device-pixel-ratio: 1.3),
+    only screen and (-o-min-device-pixel-ratio: 13/10),
+    only screen and (min-resolution: 120dpi) {
+        background-image: url(/alfresco/nap/webAssets/magazine/_shared/contents/travelSlug@2x.png);
+    }
 }
 
 .lang-zh .editSlug {
