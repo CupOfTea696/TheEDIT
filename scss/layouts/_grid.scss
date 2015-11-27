@@ -55,9 +55,11 @@ body.lang-zh main .magazineContent .creditsHolderRight .creditsWhole,
     text-align: right;
 }
 
-@for $i from 1 through 50 {
-    .span-#{$i} {
-        width: 19px * $i;
+@for $i from 0 through 50 {
+    @if $i != 0 {
+        .span-#{$i} {
+            width: 19px * $i;
+        }
     }
     
     .pull-#{$i} {
@@ -98,7 +100,7 @@ input, textarea, select {
     }
 }
 
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
     .push-down-#{$i} {
         top: 16px * $i;
         
