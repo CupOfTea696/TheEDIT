@@ -1150,7 +1150,9 @@ body.lang-zh main .magazineContent .paddingBoxBlockBlackSmall {
 }
 
 .magazineContent .rethinkSideBar p,
-.magazineContent .runwayToRealLife p {
+.magazineContent .runwayToRealLife p,
+.magazineContent .rethinkSideBar p em, 
+.magazineContent .runwayToRealLife p em {
     font-family: "GillSans", Arial, sans serif;
     font-size: 10px;
     text-transform: uppercase;
@@ -3429,6 +3431,18 @@ body.lang-zh main .magazineContent .MsPorter h2 span {
     font-size: 12px;
     letter-spacing: 0;
     line-height: 17px;
+}
+
+.magazineContent p em {
+    font-family: "GillSans", Arial, sans serif;
+    font-size: 13px;
+    line-height: 17px;
+    z-index: 1;
+    font-family: "GillSans", Arial, sans serif;
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 0;
+    z-index: 1
 }
 
 .magazineContent .kickerBlockWhite p em,
