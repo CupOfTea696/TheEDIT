@@ -1,0 +1,158 @@
+.magazineContent .creditsWholeLeft {
+    left: 28px;
+    bottom: 27px;
+    background: #fff;
+    cursor: pointer;
+    display: block;
+    padding: 5px 10px;
+    position: absolute;
+    line-height: 13px;
+    z-index: 10
+}
+
+.lang-zh .magazineContent .creditsWholeLeft {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.magazineContent .creditsWholeLeft p {
+    font-size: 12px;
+    line-height: 13px
+}
+
+.lang-zh .magazineContent .creditsWholeLeft p {
+    font-family: "GillSans", "微软雅黑", "Microsoft YaHei", Hei, Hei Ti, SimHei, STXihei, sans-serif;
+    letter-spacing: 0 !important;
+    font-size: 10px;
+    line-height: 12px;
+    font-size: 9px\9;
+}
+
+.magazineContent .creditsWholeRight {
+    right: 19px;
+    bottom: 26px;
+    background: #fff;
+    cursor: pointer;
+    display: block;
+    padding: 5px 10px;
+    position: absolute;
+    line-height: 13px;
+    text-align: right;
+    z-index: 10
+}
+
+.lang-zh .magazineContent .creditsWholeRight {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.magazineContent .creditsWholeRight p {
+    font-size: 12px;
+    line-height: 13px;
+    text-align: right
+}
+
+.lang-zh .magazineContent .creditsWholeRight p {
+    font-family: "GillSans", "微软雅黑", "Microsoft YaHei", Hei, Hei Ti, SimHei, STXihei, sans-serif;
+    letter-spacing: 0 !important;
+    font-size: 10px;
+    line-height: 12px;
+    font-size: 9px\9;
+}
+
+.magazineContent .creditsHolderRight {
+    background: url("../images/styleGuide/creditRightTransparent.png") no-repeat right transparent;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+    z-index: 10;
+    width: 28px;
+    text-indent: -999999px;
+    height: 49px
+}
+
+.lang-fr .magazineContent .creditsHolderRight {
+    background: url("../images/styleGuide/credits_fr.png") no-repeat scroll right center transparent !important
+}
+
+.lang-zh .magazineContent .creditsHolderRight {
+    background: url("../images/styleGuide/credits_zh.png") no-repeat right transparent;
+    height: 48px
+}
+
+.magazineContent .creditsHolderLeft {
+    background: url("../images/styleGuide/creditTransparent.png") no-repeat right transparent;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+    z-index: 10;
+    width: 8px;
+    text-indent: -999999px;
+    height: 48px
+}
+
+.lang-fr .magazineContent .creditsHolderLeft {
+    background: url("../images/styleGuide/credits_fr.png") no-repeat scroll right center transparent !important
+}
+
+.lang-zh .magazineContent .creditsHolderLeft {
+    background: url("../images/styleGuide/credits_zh.png") no-repeat right transparent;
+    width: 11px;
+    height: 48px
+}
+
+.magazineContent .creditsHolderRightWhite {
+    background: url("../images/styleGuide/creditRightWTransparent.png") no-repeat right transparent;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+    z-index: 10;
+    width: 28px;
+    text-indent: -999999px;
+    height: 48px
+}
+
+.lang-fr .magazineContent .creditsHolderRightWhite {
+    background: url("../images/styleGuide/credits_white_fr.png") no-repeat scroll right center transparent !important
+}
+
+.lang-zh .magazineContent .creditsHolderRightWhite {
+    background: url("../images/styleGuide/credits_zh_white.png") no-repeat right transparent;
+}
+
+.magazineContent .creditsHolderLeftWhite {
+    background: url("../images/styleGuide/creditWTransparent.png") no-repeat right transparent;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+    z-index: 10;
+    width: 8px;
+    text-indent: -999999px;
+    height: 50px
+}
+
+.lang-fr .magazineContent .creditsHolderLeftWhite {
+    background: url("../images/styleGuide/credits_white_fr.png") no-repeat scroll right center transparent !important
+}
+
+.lang-zh .magazineContent .creditsHolderLeftWhite {
+    background: url("../images/styleGuide/credits_zh_white.png") no-repeat right transparent;
+    width: 11px;
+}
+
+.magazineContent .creditsNone {
+    display: none;
+    visibility: hidden;
+}

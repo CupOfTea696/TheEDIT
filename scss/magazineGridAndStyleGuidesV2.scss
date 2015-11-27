@@ -367,98 +367,6 @@
     text-decoration: none
 }
 
-.magazineContent .creditsWholeLeft {
-    left: 28px;
-    bottom: 27px;
-    background: #fff;
-    cursor: pointer;
-    display: block;
-    padding: 5px 10px;
-    position: absolute;
-    line-height: 13px;
-    z-index: 10
-}
-
-.magazineContent .creditsWholeLeft p {
-    font-size: 12px;
-    line-height: 13px
-}
-
-.magazineContent .creditsWholeRight {
-    right: 19px;
-    bottom: 26px;
-    background: #fff;
-    cursor: pointer;
-    display: block;
-    padding: 5px 10px;
-    position: absolute;
-    line-height: 13px;
-    text-align: right;
-    z-index: 10
-}
-
-.magazineContent .creditsWholeRight p {
-    font-size: 12px;
-    line-height: 13px;
-    text-align: right
-}
-
-.magazineContent .creditsHolderRight {
-    background: url("../images/styleGuide/creditRightTransparent.png") no-repeat right transparent;
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    font-size: 10px;
-    line-height: 10px;
-    text-transform: uppercase;
-    z-index: 10;
-    width: 28px;
-    text-indent: -999999px;
-    height: 49px
-}
-
-.magazineContent .creditsHolderLeft {
-    background: url("../images/styleGuide/creditTransparent.png") no-repeat right transparent;
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    font-size: 10px;
-    line-height: 10px;
-    text-transform: uppercase;
-    z-index: 10;
-    width: 8px;
-    text-indent: -999999px;
-    height: 48px
-}
-
-.magazineContent .creditsHolderRightWhite {
-    background: url("../images/styleGuide/creditRightWTransparent.png") no-repeat right transparent;
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    font-size: 10px;
-    line-height: 10px;
-    text-transform: uppercase;
-    z-index: 10;
-    width: 28px;
-    text-indent: -999999px;
-    height: 48px
-}
-
-.magazineContent .creditsHolderLeftWhite {
-    background: url("../images/styleGuide/creditWTransparent.png") no-repeat right transparent;
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    font-size: 10px;
-    line-height: 10px;
-    text-transform: uppercase;
-    z-index: 10;
-    width: 8px;
-    text-indent: -999999px;
-    height: 50px
-}
-
 .magazineContent .theCredits {
     background: #FFF
 }
@@ -1818,22 +1726,6 @@ body.lang-zh main .magazineContent .paddingBoxBlockBlackSmall {
     z-index: 1
 }
 
-.lang-fr .magazineContent .creditsHolderLeft {
-    background: url("../images/styleGuide/credits_fr.png") no-repeat scroll right center transparent !important
-}
-
-.lang-fr .magazineContent .creditsHolderLeftWhite {
-    background: url("../images/styleGuide/credits_white_fr.png") no-repeat scroll right center transparent !important
-}
-
-.lang-fr .magazineContent .creditsHolderRightWhite {
-    background: url("../images/styleGuide/credits_white_fr.png") no-repeat scroll right center transparent !important
-}
-
-.lang-fr .magazineContent .creditsHolderRight {
-    background: url("../images/styleGuide/credits_fr.png") no-repeat scroll right center transparent !important
-}
-
 body.lang-zh main .magazineContent * {
     font-family: "GillSans", Arial, sans serif
 }
@@ -2261,106 +2153,6 @@ body.lang-zh main .magazineContent .leftText h4 {
     text-transform: uppercase;
     font-weight: normal;
     text-decoration: none
-}
-
-body.lang-zh main .magazineContent .creditsWholeLeft {
-    left: 28px;
-    bottom: 27px;
-    background: #fff;
-    cursor: pointer;
-    display: block;
-    font-size: 12px;
-    padding: 5px 10px;
-    position: absolute;
-    line-height: 14px;
-    z-index: 10
-}
-
-body.lang-zh main .magazineContent .creditsWholeLeft p {
-    font-family: "GillSans", "微软雅黑", "Microsoft YaHei", Hei, Hei Ti, SimHei, STXihei, sans-serif;
-    letter-spacing: 0 !important;
-    font-size: 10px;
-    line-height: 12px;
-    font-size: 9px\9
-}
-
-body.lang-zh main .magazineContent .creditsWholeRight {
-    right: 19px;
-    bottom: 26px;
-    background: #fff;
-    cursor: pointer;
-    display: block;
-    font-size: 12px;
-    padding: 5px 10px;
-    position: absolute;
-    position: absolute;
-    line-height: 14px;
-    text-align: right;
-    z-index: 10
-}
-
-body.lang-zh main .magazineContent .creditsWholeRight p {
-    font-family: "GillSans", "微软雅黑", "Microsoft YaHei", Hei, Hei Ti, SimHei, STXihei, sans-serif;
-    letter-spacing: 0 !important;
-    font-size: 10px;
-    line-height: 12px;
-    font-size: 9px\9
-}
-
-body.lang-zh main .magazineContent .creditsHolderRight {
-    background: url("../images/styleGuide/credits_zh.png") no-repeat right transparent;
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    font-size: 10px;
-    line-height: 10px;
-    text-transform: uppercase;
-    z-index: 10;
-    width: 28px;
-    text-indent: -999999px;
-    height: 48px
-}
-
-body.lang-zh main .magazineContent .creditsHolderLeft {
-    background: url("../images/styleGuide/credits_zh.png") no-repeat right transparent;
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    font-size: 10px;
-    line-height: 10px;
-    text-transform: uppercase;
-    z-index: 10;
-    width: 11px;
-    text-indent: -999999px;
-    height: 48px
-}
-
-body.lang-zh main .magazineContent .creditsHolderRightWhite {
-    background: url("../images/styleGuide/credits_zh_white.png") no-repeat right transparent;
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    font-size: 10px;
-    line-height: 10px;
-    text-transform: uppercase;
-    z-index: 10;
-    width: 28px;
-    text-indent: -999999px;
-    height: 48px
-}
-
-body.lang-zh main .magazineContent .creditsHolderLeftWhite {
-    background: url("../images/styleGuide/credits_zh_white.png") no-repeat right transparent;
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    font-size: 10px;
-    line-height: 10px;
-    text-transform: uppercase;
-    z-index: 10;
-    width: 11px;
-    text-indent: -999999px;
-    height: 50px
 }
 
 body.lang-zh main .magazineContent .theCredits {
@@ -3637,13 +3429,6 @@ body.lang-zh main .magazineContent .MsPorter h2 span {
     font-size: 12px;
     letter-spacing: 0;
     line-height: 17px;
-}
-
-.magazineContent p em {
-    font-family: "GillSans", Arial, sans serif;
-    font-size: 13px;
-    line-height: 17px;
-    z-index: 1;
 }
 
 .magazineContent .kickerBlockWhite p em,
