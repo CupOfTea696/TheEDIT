@@ -712,7 +712,12 @@
 
 .magazineContent .kickerBlock p {
     font-size: 10px;
-    line-height: 12px
+    line-height: 12px;
+    
+    em {
+        font-size: inherit;
+        line-height: inherit;
+    }
 }
 
 .magazineContent .kickerBlock h4 {
